@@ -18,7 +18,7 @@ int main(){
     mystack.push(200);
     mystack.push(521);
     mystack.push(998);
-    //this is from destop//
+    //this is from desktop//
 
    // cout<<mystack.peek() << endl;
     
