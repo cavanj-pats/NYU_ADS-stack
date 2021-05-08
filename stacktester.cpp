@@ -19,8 +19,8 @@ int main(){
     mystack.push(502);
     mystack.push(999);
     //this is from destop//
-    
-    cout<<mystack.peek() << endl;
+
+   // cout<<mystack.peek() << endl;
     
     
     /*
@@ -31,7 +31,7 @@ int main(){
         i++;
     }
     */
-cout << mystack.pop()<< endl;
+     //cout << mystack.pop()<< endl;
     
  
 
