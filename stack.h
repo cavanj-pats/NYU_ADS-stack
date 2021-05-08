@@ -47,23 +47,24 @@ bool Stack::push(int x){
 
 }
 
-/*
+
 int Stack::pop(){
     if(top<0){return 0;}
     int temp;
-    temp = a[0];
-    for(int i=0;i<top;i++){
-        a[i]=a[i+1];
-    }
+    temp = a[top];
+    // for(int i=0;i<top;i++){
+    //     a[i]=a[i+1];
+    // }
+    a[top]=0;
     top--;
     return temp;
 }
-*/
 
 
-/*
+
+
 int Stack::peek(){
     if (top < 0){return 0;}
-    return a[0];
+    return a[top];
 }
-*/
+
