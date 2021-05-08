@@ -16,6 +16,7 @@ int main(){
 
     mystack.push(150);
     mystack.push(200);
+    mystack.push(502);
     cout<<mystack.peek() << endl;
     
     
