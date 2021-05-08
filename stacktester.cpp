@@ -16,7 +16,7 @@ int main(){
 
     mystack.push(150);
     mystack.push(200);
-    mystack.push(502);
+    mystack.push(521);
     mystack.push(998);
     //this is from destop//
 
