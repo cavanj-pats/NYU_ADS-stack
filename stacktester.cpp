@@ -20,7 +20,7 @@ int main(){
     mystack.push(999);
     //this is from destop//
 
-   // cout<<mystack.peek() << endl;
+    cout<<mystack.peek() << endl;
     
     
     /*
