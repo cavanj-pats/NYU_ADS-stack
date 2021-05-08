@@ -11,18 +11,19 @@ int main(){
     Stack mystack;
     //cout << mystack.top << endl;
     mystack.push(10);
-    cout<<mystack.a[0] << endl;
+    //cout<<mystack.a[0] << endl;
     //cout << mystack.top << endl;
 
     mystack.push(150);
-    cout << mystack.a[0] << endl;
-    cout << mystack.a[1] << endl;
-    cout << mystack.a[30] << endl;
-    
+    // cout << mystack.a[0] << endl;
+    // cout << mystack.a[1] << endl;
+    // cout << mystack.a[50] << endl;
+
 
     mystack.push(200);
     mystack.push(521);
     mystack.push(998);
+    cout<< mystack.a[mystack.top] << endl;
     //this is from desktop//
 
    // cout<<mystack.peek() << endl;
