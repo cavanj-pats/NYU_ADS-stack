@@ -1,6 +1,7 @@
 //stack.h
 #include <iostream>
-#include <array>
+
+
 
 using namespace std;
 
@@ -21,6 +22,7 @@ class Stack
 bool Stack::push(int x){
    //MAX-1 is the array index for the last element
    //MAX-2 is largest size that allows an element to be pushed onto the stack
+    
     if (top<-1){top=-1;}  //instead of return false; i changed it to 'correct' the value of top.
     
     if (top >= MAX-2){ return false;} //-2 to check if we can fit one more
@@ -33,8 +35,12 @@ bool Stack::push(int x){
     a[0]=x;  //assign top of stack the pushed value
     return true;
     
+   
+
+   
 
 }
+
 /*
 int Stack::pop(){
     if(top<0){return 0;}
