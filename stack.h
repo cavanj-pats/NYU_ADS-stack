@@ -52,8 +52,10 @@ int Stack::pop(){
 }
 */
 
+
+/*
 int Stack::peek(){
     if (top < 0){return 0;}
     return a[0];
 }
-
+*/
