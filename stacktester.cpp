@@ -10,20 +10,24 @@ int main(){
     int i=1;
     Stack mystack;
     //cout << mystack.top << endl;
-    //mystack.push(10);
+    mystack.push(10);
     //cout<<mystack.peek() << endl;
     //cout << mystack.top << endl;
 
-    //mystack.push(150);
-    //mystack.push(200);
+    mystack.push(150);
+    mystack.push(200);
+    cout<<mystack.peek() << endl;
+    
+    
+    /*
     while (i<=1001){
         if (!mystack.push(i)){
             cout << "Push is False at i: "<<i<< endl ;
         }
         i++;
     }
-    
-//cout << mystack.pop()<< endl;
+    */
+cout << mystack.pop()<< endl;
     
  
 
