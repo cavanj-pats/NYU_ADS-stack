@@ -10,7 +10,7 @@
 				"${file}",
 				"-o",
 				//"${fileDirname}\\${fileBasenameNoExtension}.exe"
-				"C:\\Users\\james\\Documents\\vbshare\\a.exe"
+				"C:\\Users\\james\\Documents\\CPP\\a.exe"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
